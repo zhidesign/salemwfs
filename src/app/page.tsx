@@ -12,7 +12,7 @@ export default function Home() {
       {/*mini header*/}
       <div className="bg-primary/10 shadow-lg flex justify-center items-center gap-2 px-4 py-2  outline-none rounded-full w-fit mx-auto text-sm font-semibold mb-8 mt-16 text-center">
         <Star className="w-4 h-4 hidden sm:inline text-primary" />
-        <p className='text-primary text-sm md:text-[1.1rem]'>For Action-Takers Ready To Build A Proven Walmart Business</p>
+        <p className='text-primary text-sm md:text-[1.1rem]'>For Action Takers Ready To Build A Proven Walmart Business</p>
       </div>
 
       {/*main title*/}
@@ -36,7 +36,7 @@ export default function Home() {
       {/*want access transition*/}
       <p className='mt-20 text-2xl md:text-4xl text-center font-bold text-primary'>WANT ACCESS?</p>
       <div className='flex flex-col gap-8 items-center justify-center mb-20'>
-        <Button variant='warning' className='mt-5 animate-pulse'>WARNING: THIS ISN'T FOR EVERYONE </Button>
+        <Button variant='warning' className='mt-5 animate-pulse'>WARNING: THIS ISN&apos;T FOR EVERYONE </Button>
         <ArrowDown className='w-8 h-8 text-primary animate-bounce'/>
       </div>
     </div>
