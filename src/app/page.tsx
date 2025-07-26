@@ -17,7 +17,7 @@ export default function Home() {
 
       {/*main title*/}
       <h1 className='text-center text-3xl md:text-5xl font-bold leading-tight'>
-        You're One Step Away From <br className='sm:inline '/>Learning How To Build A 
+        You&apos;re One Step Away From <br className='sm:inline '/>Learning How To Build A 
         <span className='bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent'><br/>$10,000/Month <br className='sm:hidden md:inline lg:hidden'/>Walmart Business</span><br className='sm:inline'/> In 90 Days Or Less
       </h1>
       <p className='mt-8 mb-12 text-sm md:text-lg text-gray-400 text-center '> The best part is... if you don&apos;t see result, <span className='text-primary font-bold underline'>you don&apos;t pay a dime</span></p>
