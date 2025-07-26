@@ -20,7 +20,7 @@ export default function Home() {
         You're One Step Away From <br className='sm:inline '/>Learning How To Build A 
         <span className='bg-linear-to-r from-pink-500 to-violet-500 bg-clip-text text-transparent'><br/>$10,000/Month <br className='sm:hidden md:inline lg:hidden'/>Walmart Business</span><br className='sm:inline'/> In 90 Days Or Less
       </h1>
-      <p className='mt-8 mb-12 text-sm md:text-lg text-gray-400 text-center '> The best part is... if you don't see result, <span className='text-primary font-bold underline'>you don't pay a dime</span></p>
+      <p className='mt-8 mb-12 text-sm md:text-lg text-gray-400 text-center '> The best part is... if you don&apos;t see result, <span className='text-primary font-bold underline'>you don&apos;t pay a dime</span></p>
 
       {/*video*/}
       <div className='mx-auto relative aspect-video rounded-xl overflow-hidden shadow-[0_0_40px_rgba(168,85,247,0.6)]'>
@@ -50,7 +50,7 @@ export default function Home() {
 
           {/*column 1 */}
           <div className='flex flex-col gap-5'>
-            <h1 className='font-bold text-3xl mb-4'>What You'll Get Inside:</h1>
+            <h1 className='font-bold text-3xl mb-4'>What You&apos;ll Get Inside:</h1>
             <div className='flex flex-row gap-4'>
 
               <div className='bg-primary rounded-full p-2 h-fit'>
@@ -111,8 +111,8 @@ export default function Home() {
                     <Star key={i} className='w-5 h-5 text-yellow-400 fill-current'/>
                   ))}
               </div>
-              <p className='text-center'>"I initially started with Amazon FBA but Salem helped me transition into Walmart as well
-                so now I have multiple sources of income."
+              <p className='text-center'>&quot;I initially started with Amazon FBA but Salem helped me transition into Walmart as well
+                so now I have multiple sources of income.&quot;
               </p>
               <p className='mt-4 text-center font-bold'>- John D.</p>
             </div>
@@ -123,8 +123,8 @@ export default function Home() {
                     <Star key={i} className='w-5 h-5 text-yellow-400 fill-current'/>
                   ))}
               </div>
-              <p className='text-center'>"I initially started with Amazon FBA but Salem helped me transition into Walmart as well
-                so now I have multiple sources of income."
+              <p className='text-center'>&quot;I initially started with Amazon FBA but Salem helped me transition into Walmart as well
+                so now I have multiple sources of income.&quot;
               </p>
               <p className='mt-4 text-center font-bold'>- John D.</p>
             </div>
@@ -135,8 +135,8 @@ export default function Home() {
                     <Star key={i} className='w-5 h-5 text-yellow-400 fill-current'/>
                   ))}
               </div>
-              <p className='text-center'>"I initially started with Amazon FBA but Salem helped me transition into Walmart as well
-                so now I have multiple sources of income."
+              <p className='text-center'>&quot;I initially started with Amazon FBA but Salem helped me transition into Walmart as well
+                so now I have multiple sources of income.&quot;
               </p>
               <p className='mt-4 text-center font-bold'>- John D.</p>
             </div>
