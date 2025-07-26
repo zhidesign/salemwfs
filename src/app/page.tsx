@@ -23,7 +23,7 @@ export default function Home() {
       <p className='mt-8 mb-12 text-sm md:text-lg text-gray-400 text-center '> The best part is... if you don&apos;t see results, <span className='text-primary font-bold underline'>you don&apos;t pay a dime</span></p>
 
       {/*video*/}
-      <div className='mx-auto relative aspect-video rounded-xl overflow-hidden shadow-[0_0_40px_rgba(168,85,247,0.6)]'>
+      <div className='-mx-8 sm:mx-auto relative aspect-[4/3] sm:aspect-video rounded-xl overflow-hidden shadow-[0_0_40px_rgba(168,85,247,0.6)]'>
         <iframe
           className="w-full h-full"
           src="https://www.youtube.com/embed/bxeSY5WtwB8"
