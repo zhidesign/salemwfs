@@ -30,7 +30,6 @@ export default function TestimonialsSlideshow() {
     }
   ];
 
-  // Duplicate testimonials for seamless infinite scroll
   const duplicatedTestimonials = [...testimonials, ...testimonials];
 
   return (
@@ -49,7 +48,7 @@ export default function TestimonialsSlideshow() {
             className="flex gap-6 py-6 overflow-hidden"
             style={{
               width: `${duplicatedTestimonials.length * 320}px`,
-              animation: `scroll ${testimonials.length * 3}s linear infinite`
+              animation: `scroll ${testimonials.length * 5}s linear infinite`
             }}>
             {duplicatedTestimonials.map((testimonial, index) => (
               <div
@@ -66,7 +65,6 @@ export default function TestimonialsSlideshow() {
           </div>
         </div>
 
-        {/* Bottom text */}
         <div className="text-center">
           <p className="text-gray-400 text-sm">
             ✨ Join thousands of successful entrepreneurs making real profits
