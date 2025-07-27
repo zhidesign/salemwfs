@@ -95,7 +95,7 @@ export default function LeadCaptureForm() {
                         required/>
                     </div>
                     <div className=' flex justify-center'>
-                        <Button variant='cta' className='w-full py-6'>GET MY FREE BLUEPRINT!</Button>
+                        <Button variant='cta' className='w-full py-6 cursor-pointer'>GET MY FREE BLUEPRINT!</Button>
                     </div>
                     <div>
                         {submitted && <h1 className='text-green-500 font-semibold text-center text-sm sm:text-md'>Success! Check your email for the blueprint.</h1>}
