@@ -113,7 +113,7 @@ export default function Home() {
                     ))}
                 </div>
                 <p className='text-center'>
-                  I joined this group once I saw Joey was involved and Salem's Walmart success and it didn't stop there.
+                  I joined this group once I saw Joey was involved and Salem&apos;s Walmart success and it didn&apos;t stop there.
                   Coming from Amazon to Walmart can be tricky and instead of wasting time figuring it out, these guys got me onboarded to
                   Walmart like nothing.
                 </p>
