@@ -38,7 +38,7 @@ export default function TestimonialsSlideshow() {
           <span className="bg-gradient-to-r from-blue-300 to-blue-500 bg-clip-text text-transparent font-bold text-4xl">
             Our Success and More
           </span>
-          <span className='pl-1 text-4xl'> 🚀 </span>
+          <span className='pl-2 text-4xl'> 🚀 </span>
         </div>
 
         {/* Continuous Slideshow Container */}
