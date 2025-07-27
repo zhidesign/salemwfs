@@ -2,7 +2,7 @@ import Image from "next/image";
 import { Button } from '@/components/ui/button';
 import { ArrowDown, Star, TrendingUp, DollarSign, Clock } from 'lucide-react';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
-
+import Testimonials from '@/components/Testimonials';
 export default function Home() {
   return (
     <>
@@ -161,9 +161,10 @@ export default function Home() {
               </div>
             </div>
           </div>
+          
+          <Testimonials/>
 
-
-          <a href="https://calendly.com/salemfba/mentorship-call?month=2025-07" target="_blank"><Button variant='cta' size='lg' className='cursor-pointer'>Book a free call</Button></a>
+          <a href="https://calendly.com/salemfba/mentorship-call?month=2025-07" target="_blank"><Button variant='cta' size='lg' className='cursor-pointer mt-10'>Book a free call</Button></a>
       </div>
 
     </div>
