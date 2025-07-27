@@ -4,6 +4,11 @@ import {Gift } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 
+// import { initializeApp } from "firebase/app";
+// import { getAnalytics } from "firebase/analytics";
+import { collection, addDoc } from 'firebase/firestore';
+import { db, LeadFormData, LeadDocument } from '../../lib/firebase';
+
 export default function LeadCaptureForm() {
     const [formData, setFormData] = useState({
         firstName: '',
@@ -21,10 +26,19 @@ export default function LeadCaptureForm() {
         });
     };
 
+    const [submitted, setSubmitted] = useState(false);
+    
     function handleSubmit(e: React.FormEvent<HTMLFormElement>) {
         e.preventDefault();
+        addDoc(collection(db, 'leads'), formData)
+        .then(() => {
+        setSubmitted(prev => !prev);
+        formReset();
+        })
+        .catch((error) => {
+        console.error('Error adding document: ', error);
+        });
         console.log('form submitted:', formData);
-        formReset(); //add error handling in future
     };
 
     function handleInputChange(e: React.ChangeEvent<HTMLInputElement>) {
@@ -82,6 +96,9 @@ export default function LeadCaptureForm() {
                     </div>
                     <div className=' flex justify-center'>
                         <Button variant='cta' className='w-full py-6'>GET MY FREE BLUEPRINT!</Button>
+                    </div>
+                    <div>
+                        {submitted && <h1 className='text-green-500 font-semibold text-center text-sm sm:text-md'>Success! Check your email for the blueprint.</h1>}
                     </div>
                 </form>
                 

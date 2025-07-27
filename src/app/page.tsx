@@ -105,40 +105,60 @@ export default function Home() {
 
           {/*Testimonial Grid */}
           <div className='grid md:grid-cols-3 gap-6 mb-12'>
-            <div className='border rounded-lg p-6'>
-              <div className='flex flex-row justify-center mb-4'>
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className='w-5 h-5 text-yellow-400 fill-current'/>
-                  ))}
+            <div className='flex flex-col border rounded-lg p-6 justify-between'>
+              <div>
+                <div className='flex flex-row justify-center mb-4'>
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className='w-5 h-5 text-yellow-400 fill-current'/>
+                    ))}
+                </div>
+                <p className='text-center'>
+                  I joined this group once I saw Joey was involved and Salem's Walmart success and it didn't stop there.
+                  Coming from Amazon to Walmart can be tricky and instead of wasting time figuring it out, these guys got me onboarded to
+                  Walmart like nothing.
+                </p>
               </div>
-              <p className='text-center'>&quot;I initially started with Amazon FBA but Salem helped me transition into Walmart as well
-                so now I have multiple sources of income.&quot;
-              </p>
-              <p className='mt-4 text-center font-bold'>- John D.</p>
+              <div className='flex gap-2 items-center justify-center mt-4'>
+                <img src="/whop.svg" className='w-15  rounded-full'/>
+                <p className=' text-center font-bold'>Whop Client</p>
+              </div>
             </div>
 
-            <div className='border rounded-lg p-6'>
-              <div className='flex flex-row justify-center mb-4'>
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className='w-5 h-5 text-yellow-400 fill-current'/>
-                  ))}
+            <div className='flex flex-col border rounded-lg p-6 justify-between'>
+              <div>
+                <div className='flex flex-row justify-center mb-4'>
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className='w-5 h-5 text-yellow-400 fill-current'/>
+                    ))}
+                </div>
+                <p className='text-center'>
+                  Great group and lots of useful information. People respond to questions and
+                  Salem is an awesome host along with Joey. The video content is really helpful
+                  getting started.
+                </p>
               </div>
-              <p className='text-center'>&quot;I initially started with Amazon FBA but Salem helped me transition into Walmart as well
-                so now I have multiple sources of income.&quot;
-              </p>
-              <p className='mt-4 text-center font-bold'>- John D.</p>
+              <div className='flex items-center justify-center gap-2 mt-4'>
+                <img src='/dan.png' className='rounded-full w-10'/>
+                <p className=' text-center font-bold'>Daniel Krueger</p>
+              </div>
             </div>
 
-            <div className='border rounded-lg p-6'>
-              <div className='flex flex-row justify-center mb-4'>
-                  {[...Array(5)].map((_, i) => (
-                    <Star key={i} className='w-5 h-5 text-yellow-400 fill-current'/>
-                  ))}
+            <div className='flex flex-col border rounded-lg p-6 justify-between'>
+              <div>
+                <div className='flex flex-row justify-center mb-4'>
+                    {[...Array(5)].map((_, i) => (
+                      <Star key={i} className='w-5 h-5 text-yellow-400 fill-current'/>
+                    ))}
+                </div>
+                <p className='text-center'>
+                  This Walmart group is extremely informational. Salem and Joey are great
+                  guys in the Walmart space and provide a lot of value.
+                </p>
               </div>
-              <p className='text-center'>&quot;I initially started with Amazon FBA but Salem helped me transition into Walmart as well
-                so now I have multiple sources of income.&quot;
-              </p>
-              <p className='mt-4 text-center font-bold'>- John D.</p>
+              <div className='flex gap-2 justify-center items-center mt-4'>
+                <img src="/lyn.png" className='rounded-full w-10'/>
+                <p className='text-center font-bold'> Lynnsay Jeudy</p>
+              </div>
             </div>
           </div>
 
