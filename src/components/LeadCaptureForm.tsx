@@ -3,9 +3,6 @@ import { useState } from 'react';
 import {Gift } from 'lucide-react';
 import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
-
-// import { initializeApp } from "firebase/app";
-// import { getAnalytics } from "firebase/analytics";
 import { collection, addDoc } from 'firebase/firestore';
 import { db, LeadFormData, LeadDocument } from '../../lib/firebase';
 
