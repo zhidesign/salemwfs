@@ -3,6 +3,8 @@ import { Button } from '@/components/ui/button';
 import { ArrowDown, Star, TrendingUp, DollarSign, Clock } from 'lucide-react';
 import LeadCaptureForm from '@/components/LeadCaptureForm';
 import Testimonials from '@/components/Testimonials';
+import Urgent from '@/components/Urgent';
+
 export default function Home() {
   return (
     <>
@@ -35,11 +37,14 @@ export default function Home() {
       </div>
 
       {/*want access transition*/}
-      <p className='mt-20 text-2xl md:text-4xl text-center font-bold text-primary'>WANT ACCESS?</p>
+
+      {/* <p className='mt-20 text-2xl md:text-4xl text-center font-bold text-primary'>WANT ACCESS?</p>
       <div className='flex flex-col gap-8 items-center justify-center mb-20'>
         <Button variant='warning' className='mt-5 animate-pulse'>WARNING: THIS ISN&apos;T FOR EVERYONE </Button>
         <ArrowDown className='w-8 h-8 text-primary animate-bounce'/>
-      </div>
+      </div> */}
+
+      <Urgent/>
     </div>
 
     {/*2nd whole new section detailing benefits */}
