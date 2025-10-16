@@ -23,16 +23,16 @@ export default function Urgent() {
 
                     <div>
                         <a href="https://calendly.com/salemfba/mentorship-call" target="_blank">
-                            <div className='group flex items-center gap-2 bg-linear-to-r from-yellow-400 to-yellow-500 px-6 py-4 w-fit mx-auto font-bold text-black text-sm md:text-md lg:text-lg rounded-xl hover:scale-105 transition-all duration-300 cursor-pointer'>
+                            <div className='group flex items-center gap-2 bg-linear-to-r from-yellow-400 to-yellow-500 px-6 py-4 w-fit mx-auto font-bold text-black text-sm md:text-md lg:text-lg rounded-xl hover:scale-105 active:scale-105 focus:active-105 transition-all duration-300 cursor-pointer'>
                                 <span> Claim Your Spot Now - 2 Slots Remaining</span>
-                                <ArrowRight className='bg-black text-white rounded-full p-1.5 w-8 h-8 transition-transform group-hover:translate-x-2'/>
+                                <ArrowRight className='bg-black text-white rounded-full p-1.5 w-8 h-8 transition-transform group-hover:translate-x-2 group-active:translate-x-2'/>
                             </div>
                         </a>
                     </div>
 
 
                 <div>
-                    <p className='w-fit mx-auto text-[#ff5537] font-semibold text-[13px] animate-pulse '>&#9200; Spots filling fast - Don't miss your chance!</p>
+                    <p className='w-fit mx-auto text-[#ff5537] font-semibold text-[13px] animate-pulse '>&#9200; Spots filling fast - Don&apos;t miss your chance!</p>
                 </div>
 
                  <div className="flex items-center justify-center gap-2 text-sm text-muted-foreground mt-6">
